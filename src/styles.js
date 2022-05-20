@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
-
+import styled from "styled-components";
 import jedi from './assets/Starjedi.ttf'
+import { Link } from "react-router-dom";
 
 export default createGlobalStyle`
     @font-face{
@@ -11,4 +12,6 @@ export default createGlobalStyle`
         font-family: jedi;
     }
 `
-
+export const StyledLink = styled(Link)`
+    text-decoration:none;
+`

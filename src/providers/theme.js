@@ -34,6 +34,7 @@ fontSizes.xlarge = fontSizes[5]
 fontSizes.xxlarge = fontSizes[6]
 fontSizes.xxsmall = fontSizes[7]
 
+
 const fontWeights = [400, 500, 600, 700]
 fontWeights.regular = fontWeights[0]
 fontWeights.medium = fontWeights[1]

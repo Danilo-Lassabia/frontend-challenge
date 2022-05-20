@@ -6,7 +6,7 @@ import { QueryClient, QueryClientProvider } from 'react-query'
 const queryClient = new QueryClient({
   defaultConfig: {
     queries: {
-      retry: false,
+      retry: false, 
       staleTime: 50,
       refetchOnMount: false,
       refetchInterval: false,

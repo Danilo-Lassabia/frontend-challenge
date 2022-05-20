@@ -1,10 +1,61 @@
 {
-    "menu":{
+    "header":{
         "logo1":"Star",
         "logo2":"Wars",
         "logo3":"Casting",
         "characters":"Personagens",
         "movies":"Filmes",
         "register":"Cadastre-se"
+    },
+
+    "main":{
+        "inputBase":"FILTRE PELO NOME DOS",
+        "characters":"Personagens",
+        "movies":"Filmes"
+    },
+
+    "card":{
+        "birth":"nascimento",
+        "date":"DATA:",
+        "planet":"PLANETA:",
+        "physical":"descrição física",
+        "specie":"ESPÉCIE: ",
+        "height":"ALTURA:",
+        "vehicles":"veículos usados",
+        "unknown":" NÃO ENCONTRADO",
+        "details":"ver detalhes",
+        "episode":"Episódio",
+        "infos":"informações",
+        "released":"LANÇADO EM:",
+        "directed":"DIRIGIDO POR:"
+    },
+    "characterDetails":{
+        "physical":"informações físicas",
+        "specie":"ESPÉCIE: ",
+        "height":"ALTURA:",
+        "mass":"PESO:",
+        "hair":"COR DO CABELO:",
+        "vehicles":"veículos e naves utilizados",
+        "cars":"veículos",
+        "ships":"naves",
+        "apparition":"aparições em filmes"
+
+    },
+    "movieDetails":{
+        "episode":"Episódio",
+        "synopsis":"sinópse",
+        "technical":"ficha técnica",
+        "director":"diretor",
+        "producers":"produtores",
+        "release":"lancamento",
+        "appears":"aparecem nesse filme",
+        "characters":"personagens",
+        "species":"espécies",
+        "vehicles":"veículos",
+        "ships":"naves",
+        "planets":"planetas"
+    },
+    "register":{
+        "participate":"participe do próximo filme"
     }
 }
