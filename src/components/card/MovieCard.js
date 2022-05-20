@@ -39,9 +39,9 @@ export function MovieCard(){
                             {translate("card:directed")} {movie?.director}
                         </StyledText>
                         <Flex mt='25px' mb='15px' mr='15px' width='max-content' justifyContent='center'>
-                            <StyledLink to={`/movies/${getId(movie?.url)}`}>
-                                <MovieDetailsButton>{translate("card:details")}</MovieDetailsButton>
-                            </StyledLink>
+                                <MovieDetailsButton to={`/movies/${getId(movie?.url)}`}>
+                                    {translate("card:details")}
+                                </MovieDetailsButton>
                         </Flex>
                     </TextInfo>
               </Card>)

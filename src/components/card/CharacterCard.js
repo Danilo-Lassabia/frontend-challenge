@@ -64,9 +64,9 @@ export function CharacterCard({data}){
                         }
                     </TextInfo>
                     <Flex mt='auto' mb='15px' justifyContent='center'>
-                        <StyledLink to={`characters/${getId(character.url)}`}>
-                            <DetailsButton>{translate("card:details")}</DetailsButton>
-                        </StyledLink>
+                        <DetailsButton to={`characters/${getId(character.url)}`}>
+                            {translate("card:details")}
+                        </DetailsButton>
                     </Flex>
                 </Card>)
         })}
